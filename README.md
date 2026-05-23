@@ -2,21 +2,22 @@
 
 ## Overview
 
-This project analyzes publicly available Sudoku variant puzzle data from Logic Masters Deutschland (LMD), a German organization focused on logic puzzle competitions and puzzle development.
+This project analyzes publicly available Sudoku variant puzzle data from [Logic Masters Deutschland (LMD)](https://logic-masters.de), a German organization focused on logic puzzle competitions and puzzle development.
 
-The research investigates how puzzle characteristics, author activity, difficulty ratings, and puzzle variants influence puzzle engagement and solving behavior within the Sudoku community.
+The research investigates how puzzle characteristics, author activity, difficulty ratings, and puzzle variants influence puzzle engagement and solving behavior within the Sudoku community using statistical and predictive modeling techniques in R.
 
-The study focuses on puzzle data published between January 2023 and August 2023 to capture recent community trends and interactions.
+The primary analysis focuses on puzzle data published between January 2023 and August 2023 to capture recent community trends and interactions. Developed regression models were subsequently applied to September 2023 puzzle data to evaluate predictive performance and compare actual versus predicted puzzle outcomes.
 
 ---
 
-## Research Objectives
+## Objectives
 
-- Analyze factors influencing Sudoku puzzle popularity
-- Examine relationships between puzzle difficulty and engagement
-- Evaluate the impact of Sudoku variants on puzzle-solving activity
-- Develop predictive regression models for puzzle outcomes
-- Identify measurable indicators of puzzle success and player satisfaction
+- Analyze factors influencing Sudoku puzzle popularity and community engagement.
+- Examine relationships between puzzle difficulty, puzzle ratings, and solving activity.
+- Evaluate the impact of Sudoku variant features on puzzle-solving behavior.
+- Develop regression models to predict puzzle solve counts, ratings, and difficulty outcomes.
+- Apply developed models to September 2023 puzzle data for predictive validation.
+- Identify measurable indicators associated with puzzle success and player satisfaction.
 
 ---
 
@@ -44,19 +45,15 @@ The dataset was collected from publicly available records on Logic Masters Deuts
 
 ## Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
+- R
+- R Studio
 
 ---
 
 ## Analysis Type
 
-- Descriptive Analytics
-- Predictive Analytics
+- Descriptive Analysis
+- Predictive Analysis
 - Regression Analysis
 
 ---
@@ -128,4 +125,4 @@ Developed regression models were applied to a subsequent monthly dataset to eval
 
 ## Notes
 
-This project was conducted for educational and research purposes using publicly available puzzle data from Logic Masters Deutschland (LMD).
+This project was conducted for research purposes using publicly available puzzle data from [Logic Masters Deutschland (LMD)](https://logic-masters.de).

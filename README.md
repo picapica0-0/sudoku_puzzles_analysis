@@ -93,13 +93,13 @@ Dependent variables included:
 Developed regression models were applied to a subsequent monthly dataset to evaluate predictive performance.
 
 ### No. Solved Actual vs Predicted
-![No Solved Prediction](images/no_solved_prediction.png)
+![No Solved Prediction](prediction_images/no_solved_prediction.png)
 
 ### Rating Actual vs Predicted
-![Rating Prediction](images/rating_prediction.png)
+![Rating Prediction](prediction_images/rating_prediction.png)
 
 ### Difficulty Actual vs Predicted
-![Difficulty Prediction](images/difficulty_prediction.png)
+![Difficulty Prediction](prediction_images/difficulty_prediction.png)
 
 ---
 
@@ -114,7 +114,7 @@ Developed regression models were applied to a subsequent monthly dataset to eval
 │   ├── model_development.R
 │   └── model_prediction_validation.R
 │
-├── prediction_image/
+├── prediction_images/
 │   ├── no_solved_prediction.png
 │   ├── rating_prediction.png
 │   └── difficulty_prediction.png

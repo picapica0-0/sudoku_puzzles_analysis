@@ -108,8 +108,8 @@ Developed regression models were applied to a subsequent monthly dataset to eval
 │   └── september_validation_dataset.csv
 │
 ├── scripts/
-│   ├── model_development.R
-│   └── model_prediction_validation.R
+│   ├── models_development.R
+│   └── prediction_graphs.R
 │
 ├── prediction_images/
 │   ├── no_solved_prediction.png
